@@ -1,0 +1,36 @@
+body{
+	background-color:#f2f0c6;
+}
+p{
+	font-family:cursive;
+}
+a{
+	transition: background-color .5s;
+}
+a:hover{
+	color:white;
+	background-color: gold;
+}
+#cont_form{
+	margin-bottom:10px;
+	box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+label{
+	font-weight: bold;
+}
+#hist{
+	box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom:10px;
+}
+#emp{
+	box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+	margin-bottom:10px;
+}
+.footer{
+	background-color:#91F2D5;
+}
+/*#cabezera{background-color:#91F2D5}*/
+/*header{
+	margin-top:0px;
+	position:absolute;
+}*/

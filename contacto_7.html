@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" 
+	integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+	<link href="css/grupal_7.css" rel="stylesheet" type="text/css">
+	
+ </head>
+  <body>
+    <div class="container">
+		<header>
+			<div class="panel-heading">
+				<h1 align="center">¡¡Te Lo Vendo!!</h1>
+			</div>
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			  <div class="container-fluid">
+				<!--<a class="navbar-brand" href="#">Navbar</a>-->
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				  <span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+				  <ul class="navbar-nav">
+					<li class="nav-item">
+					  <a class="nav-link active" aria-current="page" href="ejercicio_Grupal_7.html">Home</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="estadisticas.html">Productos</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="clientes.html">Clientes</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link">Historia</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link">Contacto</a>
+					</li>
+				  </ul>
+				</div>
+			  </div>
+			</nav>
+				<!--<div>
+					<nav>
+						<strong>
+							<a href="ejercicio_Grupal_5.html">Home </a>|
+							<a href="#">Productos </a>|
+							<a href="#">Clientes </a>|
+							<a href="#">Historia </a>|
+							<a href="#">Contacto </a>
+						</strong>
+					</nav>
+				</div>-->
+		</header>
+		<div class="form-control"  id="cont_form">
+			<p><h3>Formulario de contacto</h3></p>
+			<form class="" action="" method="post">
+				<div class="row">
+					<div class="col-sm-8">
+						<label for="name">Nombre</label>
+						<input type="text" id="name" name="name" placeholder="Escriba su nombre" class="form-control" >
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-8">
+						<label for="phone">Teléfono</label>
+						<input type="tel" id="telefono" name="telefono" placeholder="(x xxxx xxxx)" class="form-control"  >
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-8">
+						<label for="mail">Email:</label>
+						<input type="email" id="mail" placeholder="email@dominio.com" class="form-control" >
+					</div>	
+				</div>
+				<div class="row">
+					<div class="col-sm-8">
+						<label for="msg">Mensaje</label>
+						<textarea cols="5" rows="05" id="msg" name="msg" class="form-control"></textarea>
+					</div>
+				</div>
+		<button type="button" class="btn btn-success" onclick="validar_formulario()">enviar</button>
+			</form>
+			
+		</div>
+		<footer align="center">
+		  <div class="container footer"  align="" >
+		  <address>
+			<font color="#455A73">      
+			<strong>&copy Copyright por futuros desarrolladores fullstack java trainee - 2023</strong> <br>
+			<p>Paloma Contreras, Claudia Lima, Marco Hernández y Dario Pérez</p>
+				<span class="glyphicon glyphicon-earphone"></span> +56987654321<br>
+				<span class="glyphicon glyphicon-envelope"></span><a href="mailto:">fullstack@java.cl</a><br>
+				<span class="glyphicon glyphicon-registration-mark"></span>&copy Los Monstruitos Frankestein™ - 2023
+			</font>
+			 </address>  
+		  </div>	
+		</footer>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" 
+	integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+	<script src="js/validacion.js" type="text/javascript"></script>
+	<script src="js/data.js" type="text/javascript"></script>
+  </body>
+</html>
